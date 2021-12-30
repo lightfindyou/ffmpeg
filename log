@@ -1,0 +1,1299 @@
+NVP_MSG(F:ts_read L:1533):ts_read to 0x55772CC782D0 ,len 32768 ,from 0x7FE92E797700, fd:4, fileName:/home/xzjin/Downloads/video/Norah.avi.
+NVP_DEBUG (libavformat/file.c F:file_read L:121):trace read to buf:0x55772cc782d0, buf end:0x55772cc802d0, size:32768
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc782d0, to 0x55772ccaa6d4, len: 679.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c, pkt->data:0x55772ccaa440, pkt->bufRef:0x55772ccb36c0, pkt->bufRef->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc78580, to 0x55772cd14f00, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cd14f00 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaa080, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaa080, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa080
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cd14f00 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c, pkt->data:0x55772ccaa080, pkt->bufRef:0x55772cc76dc0, pkt->bufRef->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a54c
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4a54c, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4a554, to 0x55772cca9bc0, len:1075
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a988
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a988
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a988
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4a988
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4a988, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4a990, to 0x55772ccaa080, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc788cc, to 0x55772cca7b40, len: 1177.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4, pkt->data:0x55772cca7b40, pkt->bufRef:0x55772ccb3bc0, pkt->bufRef->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc78d6e, to 0x55772cca9bc0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9bc0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772cd14f00, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772cd14f00, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9bc0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4, pkt->data:0x55772cd14f00, pkt->bufRef:0x55772cc77180, pkt->bufRef->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4acd4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4acd4, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4acdc, to 0x55772ccaa440, len:1339
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b218
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b218
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b218
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b218
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4b218, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4b220, to 0x55772cd14f00, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc790ba, to 0x55772ccaa440, len: 1223.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564, pkt->data:0x55772ccaa440, pkt->bufRef:0x55772cc94e40, pkt->bufRef->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7958a, to 0x55772cca9bc0, len: 834.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9bc0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaa080, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaa080, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa080
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9bc0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564, pkt->data:0x55772ccaa080, pkt->bufRef:0x55772ccb0580, pkt->bufRef->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4b564
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4b564, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4b56c, to 0x55772cca7b40, len:1177
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ba06
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ba06
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ba06
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ba06
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4ba06, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4ba0e, to 0x55772ccaa080, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc798d4, to 0x55772cca7b40, len: 1135.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52, pkt->data:0x55772cca7b40, pkt->bufRef:0x55772ccafe40, pkt->bufRef->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc79d4c, to 0x55772cca9bc0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9bc0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772cd14f00, len 898
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772cd14f00, size 834
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9bc0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52, pkt->data:0x55772cd14f00, pkt->bufRef:0x55772ccb1a00, pkt->bufRef->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4bd52
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4bd52, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4bd5a, to 0x55772ccaa440, len:1223
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c222
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c222
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c222
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c222
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4c222, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4c22a, to 0x55772cd14f00, len:834
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7a098, to 0x55772cca9bc0, len: 601.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca9bc0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca9bc0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca9bc0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c, pkt->data:0x55772cca9bc0, pkt->bufRef:0x55772cca9fc0, pkt->bufRef->data:0x55772cca9bc0
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7a2fa, to 0x55772ccaa440, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772ccaa440 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaa080, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaa080, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa080
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772ccaa440 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c, pkt->data:0x55772ccaa080, pkt->bufRef:0x55772cc76440, pkt->bufRef->data:0x55772ccaa080
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c56c
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4c56c, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4c574, to 0x55772cca7b40, len:1135
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c9e4
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa080
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c9e4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c9e4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4c9e4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4c9e4, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4c9ec, to 0x55772ccaa080, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7a646, to 0x55772cd14f00, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cd14f00 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaa440, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaa440, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cd14f00 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30, pkt->data:0x55772ccaa440, pkt->bufRef:0x55772ccb05c0, pkt->bufRef->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca9bc0
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cd30
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4cd30, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4cd38, to 0x55772cca9bc0, len:601
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7a992, to 0x55772ccaa800, len: 1622.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92, pkt->data:0x55772ccaa800, pkt->bufRef:0x55772cc95900, pkt->bufRef->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4cf92
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4cf92, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4cf9a, to 0x55772ccaa440, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7aff0, to 0x55772cca9ec0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772cd14f00, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772cd14f00, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de, pkt->data:0x55772cd14f00, pkt->bufRef:0x55772cc77180, pkt->bufRef->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d2de
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4d2de, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4d2e6, to 0x55772cd14f00, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7b33c, to 0x55772cca7b40, len: 1305.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a, pkt->data:0x55772cca7b40, pkt->bufRef:0x55772cc81300, pkt->bufRef->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7b85e, to 0x55772cca9ec0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaa440, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaa440, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a, pkt->data:0x55772ccaa440, pkt->bufRef:0x55772ccafc80, pkt->bufRef->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4d62a
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4d62a, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4d632, to 0x55772ccaa800, len:1622
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dc88
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dc88
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dc88
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dc88
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4dc88, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4dc90, to 0x55772ccaa440, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7bbaa, to 0x55772ccaa800, len: 1343.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4, pkt->data:0x55772ccaa800, pkt->bufRef:0x55772ccb3180, pkt->bufRef->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7c0f2, to 0x55772cca9ec0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772cd14f00, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772cd14f00, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4, pkt->data:0x55772cd14f00, pkt->bufRef:0x55772ccb0580, pkt->bufRef->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4dfd4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4dfd4, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4dfdc, to 0x55772cca7b40, len:1305
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e4f6
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e4f6
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e4f6
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e4f6
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4e4f6, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4e4fe, to 0x55772cd14f00, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7c43e, to 0x55772cca9ec0, len: 1258.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842, pkt->data:0x55772cca9ec0, pkt->bufRef:0x55772ccb36c0, pkt->bufRef->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7c930, to 0x55772cca7b40, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca7b40 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaa440, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaa440, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa440
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca7b40 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842, pkt->data:0x55772ccaa440, pkt->bufRef:0x55772cc763c0, pkt->bufRef->data:0x55772ccaa440
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4e842
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4e842, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4e84a, to 0x55772ccaa800, len:1343
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ed8a
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa440
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ed8a
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ed8a
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ed8a
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4ed8a, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4ed92, to 0x55772ccaa440, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7cc7c, to 0x55772cd14f00, len: 663.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6, pkt->data:0x55772cd14f00, pkt->bufRef:0x55772cc6df40, pkt->bufRef->data:0x55772cd14f00
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7cf1c, to 0x55772ccaa800, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772ccaa800 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772cca7b40, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772cca7b40, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772ccaa800 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6, pkt->data:0x55772cca7b40, pkt->bufRef:0x55772ccafe80, pkt->bufRef->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f0d6
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4f0d6, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4f0de, to 0x55772cca9ec0, len:1258
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f5c8
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f5c8
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f5c8
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f5c8
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4f5c8, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4f5d0, to 0x55772cca7b40, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7d268, to 0x55772cced480, len: 12392.
+NVP_MSG(F:ts_read L:1533):ts_read to 0x55772CC782D0 ,len 32768 ,from 0x7FE92E79F700, fd:4, fileName:/home/xzjin/Downloads/video/Norah.avi.
+NVP_DEBUG (libavformat/file.c F:file_read L:121):trace read to buf:0x55772cc782d0, buf end:0x55772cc802d0, size:32768
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc782d0, to 0x55772ccf04e8, len: 5739.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cced480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cced480
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772cced480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cced480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cced480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cced480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cced480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cced480
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cced480
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cced480
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cced480
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914, pkt->data:0x55772cced480, pkt->bufRef:0x55772ccb36c0, pkt->bufRef->data:0x55772cced480
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772cced480
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc79944, to 0x55772cca9ec0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaa800, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaa800, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa800
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914, pkt->data:0x55772ccaa800, pkt->bufRef:0x55772ccb3180, pkt->bufRef->data:0x55772ccaa800
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cd14f00
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4f914
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4f914, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4f91c, to 0x55772cd14f00, len:663
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4fbb4
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa800
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4fbb4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4fbb4
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4fbb4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4fbb4, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4fbbc, to 0x55772ccaa800, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc79c90, to 0x55772cca9ec0, len: 1928.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00, pkt->data:0x55772cca9ec0, pkt->bufRef:0x55772ccb3180, pkt->bufRef->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7a420, to 0x55772ccaabc0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772ccaabc0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772cca7b40, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772cca7b40, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772ccaabc0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00, pkt->data:0x55772cca7b40, pkt->bufRef:0x55772ccb0580, pkt->bufRef->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cced480
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd4ff00
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4ff00, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd4ff08, to 0x55772cced480, len:18131
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd545dc
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd545dc
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd545dc
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd545dc
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd545dc, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd545e4, to 0x55772cca7b40, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7a76c, to 0x55772ccaa700, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaa700
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaa700
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772ccaa700 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaabc0, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaabc0, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772ccaa700 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaabc0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaabc0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaabc0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928, pkt->data:0x55772ccaabc0, pkt->bufRef:0x55772cc76dc0, pkt->bufRef->data:0x55772ccaabc0
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd54928
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd54928, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd54930, to 0x55772cca9ec0, len:1928
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7aab8, to 0x55772ccaaf80, len: 1981.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaaf80
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaaf80
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaaf80
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8, pkt->data:0x55772ccaaf80, pkt->bufRef:0x55772ccb36c0, pkt->bufRef->data:0x55772ccaaf80
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd550b8
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd550b8, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd550c0, to 0x55772ccaabc0, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7b27e, to 0x55772cca9ec0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772cca7b40, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772cca7b40, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404, pkt->data:0x55772cca7b40, pkt->bufRef:0x55772ccb3bc0, pkt->bufRef->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55404
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd55404, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd5540c, to 0x55772cca7b40, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7b5ca, to 0x55772cca9ec0, len: 1363.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750, pkt->data:0x55772cca9ec0, pkt->bufRef:0x55772cc763c0, pkt->bufRef->data:0x55772cca9ec0
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7bb26, to 0x55772ccaa480, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaa480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaa480
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772ccaa480 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaabc0, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaabc0, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772ccaa480 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaabc0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaabc0
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaabc0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750, pkt->data:0x55772ccaabc0, pkt->bufRef:0x55772ccafc80, pkt->bufRef->data:0x55772ccaabc0
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55750
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd55750, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd55758, to 0x55772ccaaf80, len:1981
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55f16
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaabc0
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55f16
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55f16
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd55f16
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd55f16, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd55f1e, to 0x55772ccaabc0, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7be72, to 0x55772ccaaf80, len: 2927.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaaf80
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaaf80
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaaf80
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262, pkt->data:0x55772ccaaf80, pkt->bufRef:0x55772cc77200, pkt->bufRef->data:0x55772ccaaf80
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772ccb3b40, pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7c9ea, to 0x55772cca7b40, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca7b40 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaa480, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaa480, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaa480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa480
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca7b40 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa480
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa480
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa480
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa480
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262, pkt->data:0x55772ccaa480, pkt->bufRef:0x55772cc76400, pkt->bufRef->data:0x55772ccaa480
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772ccaa480
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56262
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd56262, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd5626a, to 0x55772cca9ec0, len:1363
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd567be
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaa480
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd567be
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd567be
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd567be
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd567be, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd567c6, to 0x55772ccaa480, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7cd36, to 0x55772ccabb40, len: 1804.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccabb40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccabb40
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772ccabb40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccabb40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccabb40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccabb40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccabb40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccabb40
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccabb40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccabb40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccabb40
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7d44a, to 0x55772cca9ec0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772cca7b40, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772cca7b40, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cca7b40
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (fftools/ffmpeg.c F:output_packet L:905):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a, pkt->data:0x55772cca7b40, pkt->bufRef:0x55772cc77380, pkt->bufRef->data:0x55772cca7b40
+NVP_DEBUG (fftools/ffmpeg.c F:write_packet L:734):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/mux.c F:av_interleaved_write_frame L:1270):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/mux.c F:write_packets_common L:1199):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/mux.c F:write_packet_common L:1141):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:0x55772cc6dec0, pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772ccaaf80
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:792):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd56b0a
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd56b0a, to 0x7ffdbb7cc60b, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd56b12, to 0x55772ccaaf80, len:2927
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd57682
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7d796, to 0x55772ccaa840, len: 1396.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772ccaa840
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772ccaa840
+NVP_DEBUG (libavcodec/mpeg4video_parser.c F:mpeg4video_parse L:151):Set target buf to 0x55772ccaa840
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa840
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa840
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa840
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa840
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa840
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa840
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa840
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa840
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:645):AVIOContext:0x55772cc781c0
+NVP_DEBUG (libavformat/aviobuf.c F:avio_read L:683):memcpy from 0x55772cc7dd12, to 0x55772cca9ec0, len: 836.
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1560):After read_packet pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1440):pkt 0x55772cc77740 :pkt->data:0x55772cca9ec0
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:308):relocate buf from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavcodec/aac_ac3_parser.c F:ff_aac_ac3_parse L:78):Set target buf to 0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1467):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772cd14b10
+NVP_DEBUG (libavutil/buffer.c F:av_buffer_realloc L:175):Realocate (nil) to .
+NVP_DEBUG (libavutil/mem.c F:av_realloc L:145):realloc (nil) to 0x55772ccaa480, len 900
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:724):trace memcpy from 0x55772cd14b10 to 0x55772ccaa480, size 836
+NVP_DEBUG (libavcodec/avpacket.c F:av_packet_make_refcounted L:728):pkt 0x55772cc6e900 :pkt->data:0x55772ccaa480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1484):out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa480
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1523):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:0x55772ccaa480
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:275):relocate buffer from :0x55772cd14b10 to 0x55772cd14b10
+NVP_DEBUG (libavcodec/parser.c F:ff_combine_frame L:282):memcpy from 0x55772cca9ec0 to 0x55772cd14b10.
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1454):After parse_packet out_pkt 0x55772cc6e900 :out_pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:parse_packet L:1541):RETURN
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1660):After parse_packet pkt 0x55772cc77740 :pkt->data:(nil)
+NVP_DEBUG (libavformat/utils.c F:read_frame_internal L:1680):After avpriv_packet_list_get pkt 0x55772cc77740 :pkt->data:0x55772ccaa480
+NVP_DEBUG (libavformat/utils.c F:av_read_frame L:1770):buffer or read pkt read internal : 0x55772cc77740, pkt->data:0x55772ccaa480
+NVP_DEBUG (fftools/ffmpeg.c F:process_input L:4363):pkt: 0x55772cc77740, pkt->data:0x55772ccaa480
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: 0x55772cc77740, pkt->data:0x55772ccaa480
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2067):ost->file_index:0
+NVP_DEBUG (fftools/ffmpeg.c F:do_streamcopy L:2068):trace AVIOContext AKA pb:0x55772cc76f80, pb->buf_ptr:0x55772cd57682
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: (nil), pkt->data:(nil)
+NVP_DEBUG (fftools/ffmpeg.c F:process_input_packet L:2638):pkt: (nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd57682
+NVP_DEBUG (libavformat/mux.c F:write_packet L:684):AVPacket pkt->data:0x55772cca7b40
+NVP_DEBUG (libavformat/mux.c F:write_packet L:685):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd57682
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet L:773):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd57682
+NVP_DEBUG (libavformat/avienc.c F:avi_write_packet_internal L:875):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd57682
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd57682, to 0x7ffdbb7ccbab, len:4
+NVP_DEBUG (libavformat/aviobuf.c F:avio_write L:238):trace memcpy from:0x55772cd5768a, to 0x55772cca7b40, len:836
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1121):AVPacket pkt:(nil), pkt->data:(nil)
+NVP_DEBUG (libavformat/mux.c F:interleaved_write_packet L:1122):pb:0x55772cc76f80, pb->buf_ptr:0x55772cd579ce
+NVP_DEBUG (libavformat/aviobuf.c F:writeout L:165):buffer:0x55772cd18840 , buf_ptr:0x55772cd579ce, buf_end:0x55772cd58840, data:0x55772cd18840, len:258446
+NVP_DEBUG (libavformat/file.c F:file_write L:134):trace fd:5, buf:0x55772cd18840, size:258446
+NVP_MSG(F:ts_write L:1065):ts_write: buf:93970341398592, file:5, len: 258446
+NVP_DEBUG (libavformat/aviobuf.c F:writeout L:165):buffer:0x55772cd18840 , buf_ptr:0x55772cd18844, buf_end:0x55772cd58840, data:0x55772cd18840, len:4
+NVP_DEBUG (libavformat/file.c F:file_write L:134):trace fd:5, buf:0x55772cd18840, size:4
+NVP_MSG(F:ts_write L:1065):ts_write: buf:93970341398592, file:5, len: 4
