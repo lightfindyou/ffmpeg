@@ -158,8 +158,7 @@ int av_grow_packet(AVPacket *pkt, int grow_by)
             return AVERROR(ENOMEM);
         if (pkt->size > 0){
 #if USETS_MEMCPY
-//xzjin
-            memcpy(pkt->buf->data, pkt->data, pkt->size);
+            ts_memcpy(pkt->buf->data, pkt->data, pkt->size);
 #else
             memcpy(pkt->buf->data, pkt->data, pkt->size);
 #endif  // USETS_MEMCPY
@@ -717,8 +716,7 @@ int av_packet_make_refcounted(AVPacket *pkt)
     av_assert1(!pkt->size || pkt->data);
     if (pkt->size){
 #if USETS_MEMCPY
-//xzjin
-        memcpy(pkt->buf->data, pkt->data, pkt->size);
+        ts_memcpy(pkt->buf->data, pkt->data, pkt->size);
 #else
         memcpy(pkt->buf->data, pkt->data, pkt->size);
 #endif  // USETS_MEMCPY

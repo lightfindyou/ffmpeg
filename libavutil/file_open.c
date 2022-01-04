@@ -86,25 +86,24 @@ int avpriv_open(const char *filename, int flags, ...)
 
 #if USETS_MEMCPY
 //xzjin
-    //fd = ts_open(filename, flags, mode);
-    fd = open(filename, flags, mode);
+    fd = ts_open(filename, flags, mode);
 #else
     fd = open(filename, flags, mode);
 #endif // USETS_MEMCPY
     //xzjin 这里是打开源文件的地方
-//#if USETS_MEMCPY
-//    if(fstat(fd, &st)){
-//        err = errno;
-//        DEBUG("fstat error, %s, errno:%d.", strerror(err), err);
-//        return err;
-//    }
-//    mmapRet = ts_mmap(NULL, st.st_size, PROT_READ, MAP_PRIVATE, fd, 0);
-//    err = errno;
-//    if(mmapRet == -1){
-//        DEBUG("ts_mmap error, %s, errno:%d.", strerror(err), err);
-//        return err;
-//    }
-//#endif //USETS_MEMCPY
+#if USETS_MEMCPY
+    if(fstat(fd, &st)){
+        err = errno;
+        DEBUG("fstat error, %s, errno:%d.", strerror(err), err);
+        return err;
+    }
+    mmapRet = ts_mmap(NULL, st.st_size, PROT_READ, MAP_PRIVATE, fd, 0);
+    err = errno;
+    if(mmapRet == -1){
+        DEBUG("ts_mmap error, %s, errno:%d.", strerror(err), err);
+        return err;
+    }
+#endif //USETS_MEMCPY
 #if HAVE_FCNTL
     if (fd != -1) {
         if (fcntl(fd, F_SETFD, FD_CLOEXEC) == -1)

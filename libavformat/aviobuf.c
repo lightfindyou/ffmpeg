@@ -678,8 +678,7 @@ int avio_read(AVIOContext *s, unsigned char *buf, int size)
             }
         } else {
 #if  USETS_MEMCPY
-//xzjin
-            memcpy(buf, s->buf_ptr, len);
+            ts_memcpy(buf, s->buf_ptr, len);
 #else
             memcpy(buf, s->buf_ptr, len);
 #endif  // USETS_MEMCPY
@@ -1164,8 +1163,7 @@ int ffio_rewind_with_probe_data(AVIOContext *s, unsigned char **bufp, int buf_si
 
     if (new_size > buf_size) {
 #if USETS_MEMCPY
-//xzjin
-        memcpy(buf + buf_size, s->buffer + overlap, buffer_size - overlap);
+        ts_memcpy(buf + buf_size, s->buffer + overlap, buffer_size - overlap);
 #else
         memcpy(buf + buf_size, s->buffer + overlap, buffer_size - overlap);
 #endif  //USETS_MEMCPY

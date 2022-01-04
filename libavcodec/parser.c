@@ -275,8 +275,7 @@ int ff_combine_frame(ParseContext *pc, int next,
         DEBUG("relocate buffer from :%p to %p\n", pc->buffer, new_buffer);
         //xzjin 这里对acc和mpeg4 memcpy了
 #if USETS_MEMCPY
-//xzjin
-        memcpy(&pc->buffer[pc->index], *buf, *buf_size);
+        ts_memcpy(&pc->buffer[pc->index], *buf, *buf_size);
 #else
         memcpy(&pc->buffer[pc->index], *buf, *buf_size);
 #endif  // USETS_MEMCPY

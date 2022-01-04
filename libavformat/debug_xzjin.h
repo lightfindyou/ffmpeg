@@ -1,6 +1,6 @@
 #ifndef DEBUG_INCLUDED
 #define DEBUG_INCLUDED
-//#include "awn/awn.h"
+#include "awn/awn.h"
 
 #define USETS_MEMCPY 1
 //Turns on debugging messages

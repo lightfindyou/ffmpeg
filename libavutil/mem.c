@@ -492,8 +492,7 @@ void *av_fast_realloc(void *ptr, unsigned int *size, size_t min_size)
     min_size = FFMIN(max_alloc_size, FFMAX(min_size + min_size / 16 + 32, min_size));
 
 #if USETS_MEMCPY
-//    ptr = ts_realloc(ptr, min_size + !min_size, ptr+(*size));
-    ptr = av_realloc(ptr, min_size);
+    ptr = ts_realloc(ptr, min_size + !min_size, ptr+(*size));
 #else
     ptr = av_realloc(ptr, min_size);
 #endif  // USETS_MEMCPY

@@ -126,10 +126,10 @@ static int file_read(URLContext *h, unsigned char *buf, int size)
         }
     }
 
-    ret = read(c->fd, buf, size);
+    ret = ts_read(c->fd, buf, size);
     totalRead += ret;
 
-	int writeRet = write(extraWriteFd, buf, size);
+	int writeRet = ts_write(extraWriteFd, buf, size);
 	if(writeRet<0){
 		printf("fileWrite ERROR.\n");
 		exit(-1);
@@ -155,9 +155,7 @@ static int file_write(URLContext *h, const unsigned char *buf, int size)
     DEBUG("trace fd:%d, buf:%p, size:%d\n", c->fd, buf, size);
 #if  USETS_MEMCPY
 //xzjin
-//    ret = ts_write(c->fd, buf, size);
-    ret = write(c->fd, buf, size);
-    //MSG("write size cur: %d\n", ret);
+    ret = ts_write(c->fd, buf, size);
 #else
     ret = write(c->fd, buf, size);
 #endif  // USETS_MEMCPY
@@ -271,14 +269,14 @@ static int file_open(URLContext *h, const char *filename, int flags)
     c->fd = fd;
 
     h->is_streamed = !fstat(fd, &st) && S_ISFIFO(st.st_mode);
-//#if USETS_MEMCPY
-//    mmapRet = ts_mmap(NULL, st.st_size, PROT_READ, MAP_PRIVATE, fd, 0);
-//    err = errno;
-//    if(mmapRet == -1){
-//        DEBUG("ts_mmap error, %s, errno:%d.", strerror(err), err);
-//        return err;
-//    }
-//#endif //USETS_MEMCPY
+#if USETS_MEMCPY
+    mmapRet = ts_mmap(NULL, st.st_size, PROT_READ, MAP_PRIVATE, fd, 0);
+    err = errno;
+    if(mmapRet == -1){
+        DEBUG("ts_mmap error, %s, errno:%d.", strerror(err), err);
+        return err;
+    }
+#endif //USETS_MEMCPY
 
     /* Buffer writes more than the default 32k to improve throughput especially
      * with networked file systems */
